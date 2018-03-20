@@ -9,14 +9,14 @@
 </tr>
 
 <?php
+	<td>Listele:</td>
+	<td>
+	<?php	
+		echo"<select name='no'>";
+			$dosya=fopen("bilgi.txt","r");
+			while (!feof($dosya))
 	
-	
-	
-	
-	
-	
-	
-	
+
 	{
 		$kaynak=fgets($dosya,256);
 		$kaynak=trim($kaynak);
